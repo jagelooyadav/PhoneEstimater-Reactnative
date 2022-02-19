@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "PhoneEstimator",
+    "slug": "PhoneEstimator",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "PhoneEstimator"
+}
