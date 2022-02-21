@@ -4,6 +4,7 @@ import { StyleSheet, Text, View, Button } from 'react-native';
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { RoundedButton } from "./ViewComponents"
 const Stack = createNativeStackNavigator();
 
 export default function App() {
@@ -31,11 +32,9 @@ const styles = StyleSheet.create({
 
 const HomeScreen = ({ navigation }) => {
   return (
-    <Button
-      title="Go to Jane's profile"
-      onPress={() =>
-        navigation.navigate('Profile', { name: 'Jane' })
-      }
-    />
+          <View>
+    <Text>Hello How are you</Text>
+    <RoundedButton title = "Jageloo"/>
+          </View>
   );
 };
